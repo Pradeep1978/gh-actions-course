@@ -1,0 +1,37 @@
+name: My Worflow
+
+# indentation
+# Strring my workflow, Number 10 , Boolean true or false
+# "" use one you have special character. 
+#  dictionary 
+# config:
+#   runs-on: first-directory/file.yaml
+#   steps: Staging
+
+# arrays 
+# colors"                 use -
+#   - red
+#   - green
+#   - blue
+
+# We can also have arrays of objects
+colors:
+  -name : red
+   hex: ff0000
+  -name : green
+   hex: 00ff00
+  -name : blue
+   hex : 0000ff
+
+
+# We can also have arrays of objects nested arrays 
+colors:
+  -name : red
+   hex: ff0000
+   labels :
+    - experimental
+    - accessibility 
+  -name : green
+   hex: 00ff00
+  -name : blue
+   hex : 0000ff
