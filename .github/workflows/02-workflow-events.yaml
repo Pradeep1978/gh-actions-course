@@ -1,11 +1,13 @@
 name: 02 - workflow events
 on: 
-  push:
-  pull_request:
-  schedule:
-    - cron: '*/5 * * * *' # every 5 mins
+  #push:
+  #pull_request:
+  #schedule:
+  #  - cron: '*/5 * * * *' # every 5 mins
   workflow_dispatch:
 
+  # commented the schedule trigger to avoid running the workflow every 5 mins. You can uncomment it to see it in action.
+  # commentd the push and pull_request triggers to avoid triggering the workflow on every push or PR. You can uncomment them to see them in action. 
 jobs:
   echo:
     runs-on: ubuntu-latest

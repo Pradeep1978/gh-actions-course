@@ -1,6 +1,8 @@
 name: 01 - Building Blocks
-on: push
-
+on: workflow_dispatch 
+#push
+# This workflow is designed to demonstrate the basic building blocks of a GitHub Actions workflow.
+# change it to workflow_dispatch to trigger it manually from the Actions tab in your repository.
 jobs:
   echo-hello:
     runs-on: ubuntu-latest
