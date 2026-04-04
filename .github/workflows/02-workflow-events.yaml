@@ -5,6 +5,7 @@ on:
   schedule:
     - cron: '0/5 * * *' # every 5 mins
   workflow_dispatch:
+  
 jobs:
   echo:
     runs-on: ubuntu-latest
