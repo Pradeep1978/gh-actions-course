@@ -5,8 +5,13 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+    stpes:
+      -name: Checkout code
+       uses: actions/checkout@v24
+      -name: Printing folders
+       run: ls  
     
-
+    #0. Checkout the code from the repository
     #1. iNSTALL DEPS FOR OUR REACT APPLICATION
     #2. eXECUTE AUTOMATED TESTS.
     #PS D:\myprojects\gitaction_course\gh-actions-course> cd 04-using-actions
