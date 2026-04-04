@@ -9,7 +9,7 @@ jobs:
       -name: Checkout code
       uses: actions/checkout@v5
       -name: Printing folders
-       run: ls  
+      run: ls  
     
     #0. Checkout the code from the repository
     #1. iNSTALL DEPS FOR OUR REACT APPLICATION
