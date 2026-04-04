@@ -1,0 +1,17 @@
+name: 04 - Using Actions
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+
+    #1. iNSTALL DEPS FOR OUR REACT APPLICATION
+    #2. eXECUTE AUTOMATED TESTS.
+    #PS D:\myprojects\gitaction_course\gh-actions-course> cd 04-using-actions
+#PS D:\myprojects\gitaction_course\gh-actions-course\04-using-actions> node -v
+#v24.14.1
+#PS D:\myprojects\gitaction_course\gh-actions-course\04-using-actions> npx create-react-app --template typescript react-app
+
+
